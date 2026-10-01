@@ -1,0 +1,10 @@
+From: Aisha Khan <aisha.khan@brightpath.co.uk>
+Subject: Dashboard not loading
+
+Hello,
+
+Since yesterday's update our reporting dashboard only shows a blank page. Not urgent, we are using the CSV exports in the meantime.
+
+Kind regards,
+Aisha Khan
+BrightPath Learning

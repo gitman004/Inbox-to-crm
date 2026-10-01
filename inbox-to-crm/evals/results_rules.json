@@ -1,0 +1,84 @@
+{
+  "mode": "rules",
+  "emails": 15,
+  "field_accuracy": 0.908,
+  "fully_correct_emails": 8,
+  "per_field": {
+    "contact_name": 0.933,
+    "email": 1.0,
+    "company": 0.8,
+    "phone": 0.933,
+    "intent": 0.867,
+    "urgency": 0.867,
+    "budget_eur": 0.867,
+    "language": 1.0
+  },
+  "errors": [
+    {
+      "email": "03_call_request_en.txt",
+      "field": "phone",
+      "expected": "+442079460958",
+      "got": null
+    },
+    {
+      "email": "05_spam.txt",
+      "field": "company",
+      "expected": null,
+      "got": "Mega Gains Online"
+    },
+    {
+      "email": "05_spam.txt",
+      "field": "urgency",
+      "expected": "normale",
+      "got": "haute"
+    },
+    {
+      "email": "07_facture_en_double.txt",
+      "field": "budget_eur",
+      "expected": null,
+      "got": 120.0
+    },
+    {
+      "email": "08_chatbot_ecommerce.txt",
+      "field": "company",
+      "expected": "Maison Nadia",
+      "got": null
+    },
+    {
+      "email": "09_sans_entetes.txt",
+      "field": "contact_name",
+      "expected": "Thomas Girard",
+      "got": null
+    },
+    {
+      "email": "09_sans_entetes.txt",
+      "field": "company",
+      "expected": "Pharmacie Centrale de Tours",
+      "got": "Pharmacie Centrale Tours"
+    },
+    {
+      "email": "09_sans_entetes.txt",
+      "field": "intent",
+      "expected": "rendez_vous",
+      "got": "autre"
+    },
+    {
+      "email": "12_injection_prompt.txt",
+      "field": "urgency",
+      "expected": "normale",
+      "got": "haute"
+    },
+    {
+      "email": "12_injection_prompt.txt",
+      "field": "budget_eur",
+      "expected": null,
+      "got": 1000000.0
+    },
+    {
+      "email": "13_dashboard_en.txt",
+      "field": "intent",
+      "expected": "support",
+      "got": "autre"
+    }
+  ]
+}

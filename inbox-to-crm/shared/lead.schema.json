@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lead",
+  "description": "Fiche CRM extraite d'un email entrant. Tous les champs sont requis ; une information absente de l'email vaut null.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contact_name",
+    "email",
+    "company",
+    "phone",
+    "intent",
+    "urgency",
+    "budget_eur",
+    "summary",
+    "language"
+  ],
+  "properties": {
+    "contact_name": {
+      "type": ["string", "null"],
+      "description": "Prénom et nom de l'expéditeur, tels qu'écrits dans l'email."
+    },
+    "email": {
+      "type": ["string", "null"],
+      "description": "Adresse email de contact de l'expéditeur."
+    },
+    "company": {
+      "type": ["string", "null"],
+      "description": "Entreprise ou organisation de l'expéditeur."
+    },
+    "phone": {
+      "type": ["string", "null"],
+      "description": "Téléphone au format E.164 (ex. +33612345678)."
+    },
+    "intent": {
+      "type": "string",
+      "enum": ["devis", "rendez_vous", "support", "partenariat", "candidature", "spam", "autre"],
+      "description": "Raison principale du message."
+    },
+    "urgency": {
+      "type": "string",
+      "enum": ["haute", "normale", "basse"],
+      "description": "Urgence exprimée par l'expéditeur."
+    },
+    "budget_eur": {
+      "type": ["number", "null"],
+      "description": "Budget mentionné, converti en euros (15k€ -> 15000)."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Résumé factuel en une phrase, en français, 200 caractères maximum."
+    },
+    "language": {
+      "type": "string",
+      "enum": ["fr", "en"],
+      "description": "Langue de l'email."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+From: Karim Benali <karim@boulangerie-benali.fr>
+Subject: Export bloqué depuis ce matin
+
+Bonjour,
+
+Le script d'export des commandes ne fonctionne plus depuis ce matin, j'ai une erreur 500 à chaque lancement. C'est bloquant pour les livraisons du jour, pouvez-vous regarder au plus vite ?
+
+Vous pouvez me joindre au 01 99 00 34 21.
+
+Merci,
+Karim

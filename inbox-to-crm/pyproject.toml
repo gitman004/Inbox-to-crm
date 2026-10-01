@@ -1,0 +1,17 @@
+[project]
+name = "inbox-to-crm"
+version = "1.0.0"
+description = "Transformer des emails entrants en fiches CRM structurées (LLM + validation + garde-fous)"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.5"]
+
+[project.optional-dependencies]
+llm = ["openai>=1.40"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["pipeline"]
+
+[tool.pytest.ini_options]
+pythonpath = ["pipeline"]
+testpaths = ["tests"]

@@ -1,0 +1,13 @@
+From: Julie Martin <j.martin@transports-leroy.fr>
+Subject: Demande de devis - automatisation des bons de livraison
+
+Bonjour,
+
+Nous recevons environ 300 bons de livraison par semaine par email, que nous ressaisissons à la main dans notre logiciel. Nous aimerions automatiser cette étape (lecture des pièces jointes et saisie automatique).
+
+Pourriez-vous nous faire un devis ? Notre budget est de 15 000 € HT.
+
+Cordialement,
+Julie Martin
+Responsable logistique — Transports Leroy
+06 39 98 12 45

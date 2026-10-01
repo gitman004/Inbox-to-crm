@@ -1,0 +1,11 @@
+From: Nadia Haddad <n.haddad@hotmail.fr>
+Subject: Chatbot pour ma boutique en ligne
+
+Bonjour,
+
+Je viens de lancer Maison Nadia, une boutique de cosmétiques en ligne. Je voudrais un assistant qui réponde aux questions fréquentes des clientes (livraison, retours, composition des produits).
+
+Combien coûterait ce type de projet ? J'ai prévu une enveloppe d'environ 4k€. C'est urgent car les soldes commencent dans deux semaines.
+
+Merci d'avance,
+Nadia

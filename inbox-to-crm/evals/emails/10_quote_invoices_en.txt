@@ -1,0 +1,13 @@
+From: Daniel Moreau <daniel@greenleaf-studio.com>
+Subject: Quote request: invoice data extraction
+
+Hello,
+
+We need to extract line items from about 2,000 supplier invoices per month and push them into our ERP. Could you send us a quote? Our budget is around €12,000.
+
+We would need this ASAP, our current contractor is leaving at the end of the month.
+
+Thanks,
+Daniel Moreau
+Operations Manager
+Greenleaf Studio

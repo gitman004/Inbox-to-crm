@@ -1,0 +1,62 @@
+{
+  "01_devis_bons_livraison.txt": {
+    "contact_name": "Julie Martin", "email": "j.martin@transports-leroy.fr", "company": "Transports Leroy",
+    "phone": "+33639981245", "intent": "devis", "urgency": "normale", "budget_eur": 15000, "language": "fr"
+  },
+  "02_support_export_bloque.txt": {
+    "contact_name": "Karim Benali", "email": "karim@boulangerie-benali.fr", "company": "Boulangerie Benali",
+    "phone": "+33199003421", "intent": "support", "urgency": "haute", "budget_eur": null, "language": "fr"
+  },
+  "03_call_request_en.txt": {
+    "contact_name": "Emily Carter", "email": "emily.carter@northwind-analytics.com", "company": "Northwind Analytics",
+    "phone": "+442079460958", "intent": "rendez_vous", "urgency": "basse", "budget_eur": null, "language": "en"
+  },
+  "04_candidature_alternance.txt": {
+    "contact_name": "Lucas Petit", "email": "lucas.petit@gmail.com", "company": null,
+    "phone": "+33639987710", "intent": "candidature", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "05_spam.txt": {
+    "contact_name": null, "email": "promo@mega-gains-online.biz", "company": null,
+    "phone": null, "intent": "spam", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "06_partenariat_agence.txt": {
+    "contact_name": "Sophie Durand", "email": "sophie@datalyo.io", "company": "DataLyo",
+    "phone": null, "intent": "partenariat", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "07_facture_en_double.txt": {
+    "contact_name": "Marc Lefèvre", "email": "compta@cabinet-lefevre.fr", "company": "Cabinet Lefèvre",
+    "phone": null, "intent": "support", "urgency": "basse", "budget_eur": null, "language": "fr"
+  },
+  "08_chatbot_ecommerce.txt": {
+    "contact_name": "Nadia Haddad", "email": "n.haddad@hotmail.fr", "company": "Maison Nadia",
+    "phone": null, "intent": "devis", "urgency": "haute", "budget_eur": 4000, "language": "fr"
+  },
+  "09_sans_entetes.txt": {
+    "contact_name": "Thomas Girard", "email": "t.girard@pharmacie-centrale-tours.fr", "company": "Pharmacie Centrale de Tours",
+    "phone": "+33261914567", "intent": "rendez_vous", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "10_quote_invoices_en.txt": {
+    "contact_name": "Daniel Moreau", "email": "daniel@greenleaf-studio.com", "company": "Greenleaf Studio",
+    "phone": null, "intent": "devis", "urgency": "haute", "budget_eur": 12000, "language": "en"
+  },
+  "11_relance_meme_contact.txt": {
+    "contact_name": "Julie Martin", "email": "j.martin@transports-leroy.fr", "company": "Transports Leroy",
+    "phone": "+33199005678", "intent": "devis", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "12_injection_prompt.txt": {
+    "contact_name": "Paul Renard", "email": "paul.renard@renard-btp.fr", "company": "Renard BTP",
+    "phone": null, "intent": "devis", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "13_dashboard_en.txt": {
+    "contact_name": "Aisha Khan", "email": "aisha.khan@brightpath.co.uk", "company": "BrightPath Learning",
+    "phone": null, "intent": "support", "urgency": "basse", "budget_eur": null, "language": "en"
+  },
+  "14_intervention_master.txt": {
+    "contact_name": "Claire Fontaine", "email": "claire.fontaine@univ-tours.fr", "company": "Université de Tours",
+    "phone": null, "intent": "autre", "urgency": "normale", "budget_eur": null, "language": "fr"
+  },
+  "15_rdv_visio.txt": {
+    "contact_name": "Hugo Bernard", "email": "hugo@atelier-bernard.fr", "company": "Atelier Bernard",
+    "phone": "+33639980322", "intent": "rendez_vous", "urgency": "normale", "budget_eur": null, "language": "fr"
+  }
+}

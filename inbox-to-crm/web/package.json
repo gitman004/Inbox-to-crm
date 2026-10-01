@@ -1,0 +1,32 @@
+{
+  "name": "inbox-to-crm-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/sync-shared.mjs",
+    "predev": "npm run sync",
+    "dev": "next dev",
+    "prebuild": "npm run sync",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check:parity": "tsx scripts/parity.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource-variable/schibsted-grotesk": "^5.3.0",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

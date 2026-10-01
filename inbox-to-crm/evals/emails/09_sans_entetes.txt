@@ -1,0 +1,7 @@
+Bonjour,
+
+Je suis Thomas Girard, DSI de la Pharmacie Centrale de Tours. Nous voudrions automatiser le tri des emails de nos fournisseurs (commandes, ruptures, factures).
+
+Pouvez-vous me rappeler au 02 61 91 45 67 pour en parler ? Mon adresse : t.girard@pharmacie-centrale-tours.fr
+
+Merci d'avance
